@@ -40,7 +40,7 @@ def add_bg_local(image_file):
 
     st.markdown(css, unsafe_allow_html=True)
 
-from data_loader import load_ecg_record
+from data_loader import *
 from hrv_analyzer import HRVAnalyzer
 from arrhythmia_detector import ArrhythmiaDetector
 from emotion_classifier import EmotionClassifier

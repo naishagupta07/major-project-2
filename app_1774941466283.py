@@ -113,7 +113,7 @@ def initialize_session_state():
         st.session_state.monitoring = False
 
 def main():
-    add_bg_local(r"C:\Users\91881\Downloads\Stress-Analyzer\attached_assets\background.jpg")
+    add_bg_local("background.jpg")
     initialize_session_state()
     
     st.markdown('<p class="main-header">🫀 Edge AI-Based Real-Time ECG Analysis System</p>', unsafe_allow_html=True)
